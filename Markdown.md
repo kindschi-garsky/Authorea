@@ -1,10 +1,11 @@
-# Markdown Basics
+# 1. Markdown
 
 ## Paragraph
 
 EMPTY LINE 
 
 ## Headers
+
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -12,26 +13,36 @@ EMPTY LINE
 ##### Heading 5
 ###### Heading 6
 
-Emphasis
+## Emphasis
 *Italic*
+
 **Bold**
 
-Strikethrough
+## Strikethrough
+
 ~~Strikethrough~~
 
-Link
+## Link
+
 [Link Text](http://www.pandoc.org)
 
-Image
+## Image
+
 ![Alt Text](/path/to/image.jpg)
+
 ![Alt Text](/path/to/image.jpg "Title")
 
-Blockquotes
+## Blockquotes
+
 > Blockquote
 >> Nested blockquote
 
-Horizontal Rule
-*** or --- or ___
+## Horizontal Rule
+***
+or
+---
+or
+___
 
 Bulleted List
 * Bulleted Item
