@@ -1,5 +1,6 @@
 abstract.tex
 Markdown Foo.md
+AAA.tex
 introduction.tex
 results.tex
 results_table.tex
