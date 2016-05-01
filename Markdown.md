@@ -77,10 +77,6 @@ Sentence with a footnote label.[^1]
 
 [^1]: Footnote content.
 
-## Escaping Characters
-
-\*don't italicize this\*
-
 ## Superscript and Subscript (in Authorea NOT supported)
 
 2^nd^
