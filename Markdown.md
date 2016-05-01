@@ -79,6 +79,7 @@ This is an example of `inline code.`
 ## Footnotes (in Authorea NOT supported)
 
 Sentence with a footnote label.[^1]
+
 [^1]: Footnote content.
 
 ## Escaping Characters
