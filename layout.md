@@ -1,5 +1,5 @@
 abstract.tex
-Markdown.md
+markdown.md
 latex.tex
 article.tex
 introduction.tex
