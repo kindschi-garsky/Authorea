@@ -1,4 +1,4 @@
-# Markdown Basics
+# Markdown
 Text[^1]
 
 [^1]: Footnote.
