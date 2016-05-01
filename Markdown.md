@@ -64,9 +64,8 @@ EMPTY LINE
 
 This is an example of `inline code.`
 
-```This is a fenced code block.```
+```This is a code block.```
 
-⋅⋅⋅⋅This is also a fenced code block.
 
 ## Table
 
@@ -87,6 +86,7 @@ Sentence with a footnote label [^1].
 
 ## Superscript and Subscript
 32^nd^
+
 H~2~O
 
 ## More Information
