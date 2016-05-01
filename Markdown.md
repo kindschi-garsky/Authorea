@@ -38,54 +38,57 @@ EMPTY LINE
 >> Nested blockquote
 
 ## Horizontal Rule
-***
-or
----
-or
-___
 
-Bulleted List
+----
+
+## Bulleted List
+
 * Bulleted Item
 - Bulleted Item
-+ Bulleted ItemNumbered List
++ Bulleted Item
+
+## Numbered List
+
 1. Numbered Item
 2. Numbered Item
 3. Numbered Item
 
-Nested List
-Dots indicate leading spaces
+## Nested List
+
 1. Numbered Item
-⋅⋅* Bulleted Item   
-⋅⋅* Bulleted Item   
+  * Bulleted Item  
+  * Bulleted Item  
 2. Numbered Item
 
-Code
-Dots indicate leading spaces
+## Code
+
 This is an example of `inline code.`
+
 ```This is a fenced code block.```
+
 ⋅⋅⋅⋅This is also a fenced code block.
 
-Table
+## Table
+
 |  Tables  |      Are      | Cool |
 |----------|:-------------:|-----:|
 | col 1 is |  left-aligned | $100 |
 | col 2 is |    centered   |  $52 |
 | col 3 is | right-aligned |   $9 |
 
-Footnotes
+## Footnotes
 Sentence with a footnote label [^1].
+
 [^1]: Footnote content.
 
-Escaping Characters
+## Escaping Characters
+
 \*don't italicize this\*
 
-Superscript and Subscript
+## Superscript and Subscript
 32^nd^
 H~2~O
 
+## More Information
 
-# More Information
-
-Pandoc's version of Markdown:		http://pandoc.org/README.html
-
-Editor: 						http://classeur.io
+Pandoc's version of Markdown: http://pandoc.org/README.html
