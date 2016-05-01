@@ -2,7 +2,7 @@
 
 ## Paragraph
 
-EMPTY LINE 
+`EMPTY LINE`
 
 ## Headers
 
@@ -14,6 +14,7 @@ EMPTY LINE
 ###### Heading 6
 
 ## Emphasis
+
 *Italic*
 
 **Bold**
@@ -75,16 +76,17 @@ This is an example of `inline code.`
 | col 2 is |    centered   |  $52 |
 | col 3 is | right-aligned |   $9 |
 
-## Footnotes
-Sentence with a footnote label [^1].
+## Footnotes [in Authorea NOT supported]
 
+Sentence with a footnote label.[^1]
 [^1]: Footnote content.
 
 ## Escaping Characters
 
 \*don't italicize this\*
 
-## Superscript and Subscript
+## Superscript and Subscript [in Authorea NOT supported]
+
 32^nd^
 
 H~2~O
