@@ -1,5 +1,5 @@
 abstract.tex
-Markdown Foo.md
+Markdown.md
 about.tex
 introduction.tex
 results.tex
