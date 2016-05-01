@@ -20,7 +20,7 @@
 
 ## Link
 
-[Link Text](http://www.pandoc.org)
+[www.pandoc.org](http://www.pandoc.org)
 
 ## Image
 
