@@ -88,7 +88,7 @@ Sentence with a footnote label.[^1]
 
 ## Superscript and Subscript (in Authorea NOT supported)
 
-32^nd^
+2^nd^
 
 H~2~O
 
