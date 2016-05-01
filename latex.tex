@@ -1,1 +1,147 @@
 \section{2. LaTeX Basics}
+
+\subsection{Paragraph}
+
+\texttt{EMPTY\ LINE}
+
+\subsection{Headers}
+
+\section{Heading 1}
+
+\subsection{Heading 2}
+
+\subsubsection{Heading 3}
+
+\paragraph{Heading 4}
+
+\subparagraph{Heading 5}
+
+Heading 6 (NOT supported)
+
+\subsection{Emphasis}
+
+\textit{Italic} or \emph{Emphasis}
+
+\textbf{Bold}
+
+\subsection{Strikethrough}
+
+\sout{Strikethrough}
+
+\subsection{Link}
+
+\href{http://www.pandoc.org}{Link Text}
+
+\subsection{Image}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{/path/to/image.jpg}
+\caption{Alt Text}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{/path/to/image.jpg}
+\caption{Alt Text}
+\end{figure}
+
+\subsection{Blockquotes}
+
+\begin{quote}
+Blockquote
+\begin{quote}
+Nested blockquote
+\end{quote}
+\end{quote}
+
+\subsection{Horizontal Rule}
+
+\hrule
+
+\subsection{Bulleted List}
+
+\begin{itemize}
+\tightlist
+\item
+  Bulleted Item
+\item
+  Bulleted Item
+\item
+  Bulleted Item
+\end{itemize}
+
+\subsection{Numbered List}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Numbered Item
+\item
+  Numbered Item
+\item
+  Numbered Item
+\end{enumerate}
+
+\subsection{Nested List}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Numbered Item
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Bulleted Item\\
+\item
+  Bulleted Item\\
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Numbered Item
+\end{enumerate}
+
+\subsection{Code}
+
+This is an example of \texttt{inline\ code.}
+
+\texttt{This\ is\ a\ code\ block.}
+
+\subsection{Table}
+
+\begin{longtable}[]{@{}lcr@{}}
+\toprule
+~~Tables~~ & ~~~~~~Are~~~~~~ & ~Cool~\tabularnewline
+\midrule
+\endhead
+col 1 is & ~left-aligned & \$100\tabularnewline
+col 2 is & ~~~ centered~~ & ~\$52\tabularnewline
+col 3 is & right-aligned & ~~\$9\tabularnewline
+\bottomrule
+\end{longtable}
+
+\subsection{Footnotes}
+
+Sentence with a footnote label.\footnote{Footnote content.}
+
+\subsection{Escaping Characters}
+
+\emph{don't italicize this}
+
+\subsection{Superscript and Subscript}
+
+32\textsuperscript{nd}
+
+H\textsubscript{2}O
+
+\subsection{More Information}
+
+Pandoc's version of Markdown: http://pandoc.org/README.html
