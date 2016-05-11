@@ -84,7 +84,7 @@ Sentence with a footnote label.[^1]
 H~2~O
 
 ## Citations
-\cite{cite:0}
+[@cite:0]
 
 ## More Information
 
