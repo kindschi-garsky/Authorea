@@ -83,6 +83,9 @@ Sentence with a footnote label.[^1]
 
 H~2~O
 
+## Citations
+\cite{cite:0}
+
 ## More Information
 
 Pandoc's version of Markdown: http://pandoc.org/README.html
